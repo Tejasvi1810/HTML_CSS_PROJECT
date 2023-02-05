@@ -1,0 +1,39 @@
+<html>
+<head>
+<title> Contact  </title>
+<link rel="stylesheet" type="text/css" href="stylesheet2.css">
+
+
+</head>
+<body>
+
+<div class="topnav">
+  <a  href="Index.html">Home</a>
+  <a href="Restaurent.html">Restaurent</a>
+  <a href="Menu.html">Menu</a>
+  <a href="About.html">About</a>
+  <a  class="active" href="Contact.html">Contact us</a>
+</div>
+<a href="Login.html" class="btn">LOGIN </a>
+<a href="Register.html" class="btn">Register</a>
+<h1> Contact Us </h1>
+<table>
+
+<div class="cnt">
+<h2> Our Address </h2>            
+ <td><div class="map"> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3473.104542798008!2d75.4517889149441!3d29.484147782089575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391165c725e738fb%3A0x858b4f82056afeba!2sBighar%20Rd%2C%20Haryana%20125050!5e0!3m2!1sen!2sin!4v1635433868329!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe></div></td>
+<h3> 121, Rock Street , <br>
+Model Town,<br>
+45896</h3><br>
+<h2> Our contacts </h2>
+<h3> +91 456-789-8978<br>
++91 52698-89745<br>
++92 12587-85301
+</h3><h2> Our Timmings </h3>
+<h3> Mon-Fri.......10 am - 11 pm <br>
+Sat-Sun.....24*7 </h3>
+</div>
+
+</table>
+</body>
+</html>

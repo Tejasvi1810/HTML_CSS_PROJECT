@@ -1,0 +1,68 @@
+body {
+	background-image: url("resta.jpg");
+	background-size: 700px;
+	height: 100px;
+	
+	font-family: cursive;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #333
+  font-size: 40px;
+}
+
+
+.topnav a {
+  font-size: 40px;
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover {
+  color: red;
+}
+.topnav a.active {
+  color: red;
+}
+
+.btn {
+	
+	color: white;
+border-radius:7px;
+  display: inline-block;
+  height: 50px;
+  width: 190px;
+  text-align: center;
+  float: right;
+  font-size: 25px;
+  line-height: 50px;
+  vertical-align: middle;
+  background: red;
+  overflow: hidden;
+  text-decoration:none;
+  margin-right: 30px;
+  margin-top: -30px;
+}
+.btn:hover {
+	background-color: green;
+	border-bottom: 3px solid yellow;
+    border-top: 3px solid yellow;
+}
+
+.rest {
+	border: 2px solid yellow;
+	padding: 20px;
+	radius: 30px;
+  } 
+.rest:hover {
+	border: 6px groove cyan;
+}
+.ab {
+	font-color: yellow;
+}
+h1 {
+	color: yellow;
+}

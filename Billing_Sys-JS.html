@@ -1,0 +1,72 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="stylesheet9.css">
+<title> Billing  </title>
+
+</head>
+<body>
+<div class="topnav">
+  <a href="Index.html">Home</a>
+  <a href="Restaurent.html">Restaurent</a>
+  <a href="Menu.html">Menu</a>
+  <a href="About.html">About</a>
+  <a href="Contact.html">Contact us</a>
+</div>
+<a href="Login.html" class="btn">LOGIN </a>
+<a href="Register.html" class="btn">Register</a>
+
+<div class="footer">
+<footer>All trademarks are properties of their respective owners. 2008-2019 © XYZ™ Media Pvt Ltd. All rights reserved.
+</footer>
+</div>
+<script>
+
+sum=0
+do 
+{
+
+	item=prompt("Enter name of Item")
+	document.write("<h4><br>Item:  "+item+" </h4>")
+	qty=parseInt(prompt("Enter Quantity"))
+	document.write("<h4><br>No. of Qty. : "+qty+" </h4>")
+	rt=parseInt(prompt("Enter Price"))
+	document.write("<h4><br>Price: "+rt+" </h4>")
+	amt=qty*rt
+	sum+=amt
+	document.write("<h3><br>Amount is :  "+amt+" </h3>")
+
+	
+	
+}while(confirm("Do you have more items ?"))
+	document.write("<h1><br>Total Payable Amount  "+sum+" </h1>")
+	
+if(sum>=3000)
+{
+	dis=sum*0.1
+	document.write("<h1><br>Discount is:  "+dis+" </h1>")
+}
+else if(sum>=2000)
+{
+	dis=sum*0.05
+	document.write("<h1><br>Discount is:  "+dis+" </h1>")
+}
+else if(sum>=1000)
+{
+	dis=sum*0.02
+	document.write("<h1><br>Discount is:  "+dis+" </h1>")
+}
+tot=sum-dis
+sb=tot
+	
+document.write("<h1><br>Total amount (after discount): "+sb+" </h1>")
+st=sb*0.02
+
+document.write("<h1><br>Service Tax:  "+st+" </h1> ")
+pay=sb+st
+
+document.write("<h1><br>Total Payable amount: "+pay+" </h1>")
+
+</script>
+
+</body>
+</html>
